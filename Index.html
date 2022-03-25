@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>My Website</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Container {
+            display: block;
+            height: 100%;
+        }
+
+
+        a {
+            top: 50%;
+            left: 45%;
+            position: absolute;
+            -webkit-font-smoothing: antialiased;
+            border: none;
+            padding: 20px 30px 20px 30px;
+            background-color: black;
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            transition: 1s;
+            border-radius: 32px;
+        }
+
+        a:hover {
+            background-color: aliceblue;
+            color: black;
+        }
+
+        input {
+            padding: 15px 25px 15px 25px;
+            border: none;
+            border-radius: 22px;
+            background-color: #191919;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 40%;
+            left: 30%;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <form action="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+            <input type="text" placeholder="Name" required> <br>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" type="submit">Submit</a>
+        </form>
+    </div>  
+</body>
